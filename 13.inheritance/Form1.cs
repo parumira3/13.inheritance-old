@@ -16,5 +16,28 @@ namespace _13.inheritance
         {
             InitializeComponent();
         }
+
+        private void btnOneCycle_Click(object sender, EventArgs e)
+        {
+
+            COneCycle cOC = new COneCycle("외발 자전거");
+            lbName.Text = cOC.strName;
+            Graphics g = pMain.CreateGraphics();
+            Pen p = cOC.fPeninfo();
+
+            g.DrawRectangle(p, cOC._rtSquare1);
+            g.DrawEllipse(p, cOC._rtCircle1);
+
+
+
+            //CBase cb = new CBase();
+
+
+
+            //Graphics g = pMain.CreateGraphics();
+            //Pen p = new Pen(Color.Aqua);
+            //g.DrawRectangle(p, 50, 50, 100, 150);
+
+        }
     }
 }
