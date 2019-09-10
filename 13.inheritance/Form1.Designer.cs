@@ -53,7 +53,7 @@
             this.lbName.Name = "lbName";
             this.lbName.Size = new System.Drawing.Size(72, 26);
             this.lbName.TabIndex = 1;
-            this.lbName.Text = "상속";
+            this.lbName.Text = "외발자전거";
             this.lbName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnOneCycle
